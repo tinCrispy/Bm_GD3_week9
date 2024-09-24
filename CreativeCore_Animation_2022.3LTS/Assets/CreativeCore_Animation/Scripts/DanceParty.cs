@@ -19,17 +19,17 @@ public class DanceParty : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            anim.SetTrigger("Dance_01");
+            anim.SetTrigger("Dance_x1");
         }
 
         if (Input.GetKeyDown(KeyCode.W))
         {
-            anim.SetTrigger("Dance_02");
+            anim.SetTrigger("Dance_x2");
         }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            anim.SetTrigger("Dance_03");
+            anim.SetTrigger("Dance_x3");
         }
 
         if (Input.GetKeyDown(KeyCode.R))
